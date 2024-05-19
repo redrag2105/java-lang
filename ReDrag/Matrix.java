@@ -1,10 +1,10 @@
-package Part1;
+package ReDrag;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
-public class Part1 {
+public class Matrix {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int rows = getDimension(sc, "Enter the number of rows: ");
