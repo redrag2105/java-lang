@@ -23,6 +23,7 @@ public class FormattedName {
     }
 
     private static String toTitleCase(String name) {
+        name = name.trim();
         String[] words = name.split("\\s+");
         for (int i = 0; i < words.length; i++) {
             if (!words[i].isEmpty()) {
